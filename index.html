@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word RT3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="navbar">
+            <button id="test" onclick="makeBold()">B</button>
+            <button id="test" onclick="makeItalic()">I</button>
+            <button id="test" onclick="makeUnderline()">U</button>
+            <div><select name="" id="fontsize">
+                    <option value="10px">10px</option>
+                    <option value="20px">20px</option>
+                    <option value="30px">30px</option>
+                    <option value="40px">40px</option>
+                </select></div>
+            <div><select name="" id="fontfamily">
+                    <option value="Arial">Arial</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Verdona">Verdona</option>
+                    <option value="Courier New">Courier New</option>
+                </select></div>
+            <div id="align-left"><i class="fas fa-align-left"></i></div>
+            <div id="align-center"><i class="fas fa-align-center"></i></div>
+            <div id="align-right"><i class="fas fa-align-right"></i></div>
+            <div><input id="usercolor" type="color"></div>
+
+        </div>
+        <textarea id="playground">Hello World!</textarea>
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,21 @@
+.main-container{
+    width: 600px;
+    margin: 0 auto;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+#navbar>*{
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#playground{
+    background-color: aliceblue;
+    height: 600px;
+    width: 100%;
+    font-size: 20px;
+    resize: none;
+    border: none;
+}
